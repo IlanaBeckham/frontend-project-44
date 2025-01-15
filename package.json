@@ -1,0 +1,29 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packages": {
+    "": {
+      "name": "@hexlet/code",
+      "version": "1.0.0",
+      "license": "ISC",
+      "bin": {
+        "brain-games": "bin/brain-games.js"
+      }
+    }
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "readline-sync": "^1.4.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alina",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "eslint-plugin-import": "^2.31.0"
+  }
+}
